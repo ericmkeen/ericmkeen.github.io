@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "ESCI 222"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/ericmkeen
+      - icon: twitter
+        href: https://www.bcwhales.org
+format:
+  html:
+    theme: minty
+    css: styles.css
+
+editor: visual
+
